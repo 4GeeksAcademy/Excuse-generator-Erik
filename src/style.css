@@ -1,5 +1,47 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
-    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Bungee", sans-serif;
+    background-color: #F1F5F9;
 }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+h1 {
+    color: #0F172A;
+}
+
+.excuse-container {
+    max-width: 450px;
+    min-height: 50px;
+    margin-top: 100px;
+}
+
+#excuse {
+    text-align: center;
+    font-size: x-large;
+    color: #475569;
+}
+
+.btn {
+    padding: 5px 30px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
